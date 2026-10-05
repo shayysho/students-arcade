@@ -1,4 +1,5 @@
 AUTHOR = "Shayan Shoukat"
+APP_NAME = "Multiplication Table Generator"
 
 def run():
     print("=== Multiplication Table Generator ===")

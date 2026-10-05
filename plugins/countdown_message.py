@@ -1,6 +1,7 @@
 import time
 
 AUTHOR = "Shayan Shoukat"
+APP_NAME = "Countdown Message"
 
 def run():
     print("=== Countdown Message ===")
