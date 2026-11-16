@@ -14,7 +14,7 @@ COPY requirements.txt* ./
 RUN if [ -f requirements.txt ]; then pip install --no-cache-dir -r requirements.txt; fi
 
 # Copy the Arcade launcher and plugins into the image.
-COPY missing-main.py ./
+COPY main.py ./
 COPY plugins ./plugins
 
 # Start the existing Arcade launcher when the container runs.
